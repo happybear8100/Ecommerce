@@ -13,15 +13,17 @@ import Modal from './components/Modal';
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={ProductList} />
-        <Route path="/details" component={Details} />
-        <Route path="/cart" component={Cart} />
-        <Route component={Default} />
-      </Switch>
-      <Footer />
-      <Modal />
+      <div className="app-container">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={ProductList} />
+          <Route path="/details" component={Details} />
+          <Route path="/cart" component={Cart} />
+          <Route component={Default} />
+        </Switch>
+        <Footer />
+        <Modal />
+      </div>
     </React.Fragment>
   );
 }
