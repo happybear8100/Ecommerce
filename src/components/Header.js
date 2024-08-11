@@ -20,7 +20,7 @@ export default class Header extends Component {
                </ul>
                <Link to="/cart" className="ml-auto">
                   <ButtonContainer>
-                      <i className="fas fa-cart-plus">my cart</i>
+                      <i className="fas fa-cart-plus"> my cart</i>
                   </ButtonContainer>
                </Link>
             </NavWrapper>
