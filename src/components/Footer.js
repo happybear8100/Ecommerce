@@ -11,7 +11,7 @@ export default class Header extends Component {
     }
 }
 const FooterWrapper = styled.div`
-background:var(--mainBlue);
+background:var(--mainDark);
 .footer-text {
     color:var(--mainWhite);
 }
