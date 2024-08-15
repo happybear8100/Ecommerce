@@ -82,16 +82,16 @@ const ProducrWrapper =styled.div`
     position:absolute;
     bottom:0;
     right:0;
-    padding:0.2rem 0.4rem;
+    padding: 0.2rem 0.4rem;
     background:var(--lightBlue);
     color:var(--mainWhite);
     font-size:1.4rem;
-    border-radius:0.5 rem 0 0 0;
+    border:unset;
     transform:translate(100%, 100%);
     transition:all 1s linear;
 }
 .img-container:hover .cart-btn{
-    transform:translate(0, 0);
+    transform:translate(-10%, -10%);
 }
 .cart-btn:hover{
     color:var(--mainBlue);
